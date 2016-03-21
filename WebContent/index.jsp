@@ -9,12 +9,12 @@
 <body>
 <h1> TESTE</h1>
 
-<form action="">
+<form action="ServletController">
 
 <label for="login"> Login:</label>
 <input type="text" id="login" name="login"/>
 <label for="senha">Senha:</label>
-<input type="password" id="senha" name="senha">
+<input type="text" id="senha" name="senha">
 <button type="submit">Logar:</button> 
 
 </form>
