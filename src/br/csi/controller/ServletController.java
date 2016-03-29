@@ -35,6 +35,7 @@ public class ServletController extends HttpServlet {
 		 String login = request.getParameter("login");
 		 String senha = request.getParameter("senha");
 		 
+		 
 		 Usuario u = new Usuario();
 		 u.setLogin(login);
 		 u.setSenha(senha);
